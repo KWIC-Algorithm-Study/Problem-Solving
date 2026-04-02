@@ -11,19 +11,21 @@
 |?|?|5|
 
 2. 인증 방식
-  1. 개인 브랜치 만들고 거기에 본인이 풀었던 문제 기록
-     - 개인 브랜치는 자기 성 영어로 작성 ex) choi, ko, jeon
-     - 커밋 메시지 양식
-      - 백준을 푼 경우: 'BOJ 1111 clear'
-      - 기타 다른 사이트: '누구나 알아볼 수 있게 작성' ex) 프로그래머스를 풀었을 때 'programmers 1234 clear'
-      - 문제 풀이에 성공한 경우에만 커밋해주면 좋겠음
-  3. 일요일 밤에 카카오톡에 커밋기록 캡처해서 기록 증빙
+    1. 개인 브랜치 만들고 거기에 본인이 풀었던 문제 기록
+        - 개인 브랜치는 자기 성 영어로 작성   
+        ex) choi, ko, jeon
+    2. 커밋 메시지 양식
+        - 백준을 푼 경우: 'BOJ 1111 clear'
+        - 기타 다른 사이트: '누구나 알아볼 수 있게 작성'   
+        ex) 프로그래머스를 풀었을 때 'programmers 1234 clear'
+        - 문제 풀이에 성공한 경우에만 커밋해주면 좋겠음  
+    3. 일요일 밤에 카카오톡에 커밋기록 캡처해서 기록 증빙
 
-4. 타인의 브랜치에 절대 커밋 금지
+3. 타인의 브랜치에 절대 커밋 금지
 
-5. 사용 언어: 자유
+4. 사용 언어: 자유
 
-6. 푸는 방식: 자유
+5. 푸는 방식: 자유
   - ai를 돌려도 되고 블로그 글을 복붙해도 됨(자기손해임)
 
 # 벌금
@@ -33,14 +35,16 @@
 
 # 운영 방식
 - 일주일의 기준 = 월-일
-- 시험기간 2주전부터 운영 중단
+- 시험기간 2주전부터 운영 중단  
 26/1학기 중간고사 기간이 4/21부터니 4/7부터 운영 중단
 
 ## 참고 사이트
-[백준](https://www.acmicpc.net/)
-[백준 확장 프로그램](https://chromewebstore.google.com/detail/boj-extended/mfcaadoifdifdnigjmfbekjbhehibfel?hl=ko&utm_source=ext_sidebar)
+>[백준](https://www.acmicpc.net/)    
+
+>[백준 확장 프로그램](https://chromewebstore.google.com/detail/boj-extended/mfcaadoifdifdnigjmfbekjbhehibfel?hl=ko&utm_source=ext_sidebar)  
 문제의 티어를 보고 본인의 티어를 확인하는 등 다양한 기능을 제공함 **설치 강력 추천**
-[프로그래머스](https://school.programmers.co.kr/)
+
+>[프로그래머스](https://school.programmers.co.kr/)
 
 ## 일단 백준부터 푸는 거 추천
 특히 처음 하는 사람들은 쉬운문제(브론즈 문제들)면 좀 많이 풀 수 있으니까 본인이 풀 개수를 조금 많이 잡는 것을 추천
