@@ -1,2 +1,2 @@
-import datetime
-print(datetime.datetime.now())
+N, M = map(int, input().split())
+print(N * M - 1)
