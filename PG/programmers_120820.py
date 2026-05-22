@@ -3,3 +3,5 @@ def solution(age):
     
     answer = 2023 - age
     return answer
+
+나이 출력
