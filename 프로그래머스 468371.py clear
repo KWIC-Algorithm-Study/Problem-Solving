@@ -1,0 +1,38 @@
+from collections import deque
+
+def solution(signals):
+    dequeSignals = []
+    minLoop = 1
+
+
+    for signal in signals:
+        minLoop *= sum(signal)
+
+        sub = deque([])
+        for i in range(3):
+            for j in range(signal[i]):
+                sub.append(i)
+
+        dequeSignals.append(deque(sub))
+
+    answer = 0
+    turn = 1
+    for i in range(minLoop):
+        result = []
+        for signal in dequeSignals:
+            result.append(signal[0])
+            signal.rotate(-1)
+
+        # 노란불이 아님
+        if(result[0] != 1):
+            turn += 1
+            continue
+
+        re = True
+        for i in range(len(result)):
+            if(result[i] != 1):
+                re = False
+        if(re):
+            return turn
+        turn += 1
+    return -1
