@@ -13,8 +13,8 @@ def solution(picks, minerals):
         if (i+1)%5==0 or i+1==len(minerals):
             score_lst.append(el)
             el=[0,0,0]
-        #사용할 수 있는 곡괭이 수만큼 자르기
-        score_lst=score_lst[0:sum(picks)]
+    #사용할 수 있는 곡괭이 수만큼 자르기
+    score_lst=score_lst[0:sum(picks)]
     #max값 순으로 정렬
     score_lst.sort(key=max, reverse=True)
     for i in score_lst:
