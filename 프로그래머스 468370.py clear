@@ -22,3 +22,4 @@ def solution(message, spoiler_ranges):
             answer -= 1
     
     return answer
+.
